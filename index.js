@@ -12,7 +12,7 @@ app.set('views', templatePath)
 
 
 app.get('/', (req, resp) => {
-    resp.render("login", { data })
+    resp.render("login")
 })
 
 
