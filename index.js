@@ -15,6 +15,7 @@ app.get('/', (req, resp) => {
     resp.render("login", { data })
 })
 
+
 app.get('/signup', (req, resp) => {
     resp.render("signup")
 })
